@@ -1,0 +1,14 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+/* Aplica a cor de fundo */
+.app {
+  height: 100%;           /* ocupa toda a altura da tela */
+  background-color: #fef3c7; /* cor equivalente ao bg-amber-200 do Tailwind */
+  
+  display: flex;          /* para centralizar o conteúdo */
+  align-items: center;    /* centraliza verticalmente */
+  justify-content: center; /* centraliza horizontalmente */
+}
